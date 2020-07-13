@@ -1,15 +1,30 @@
-import React from 'react';
-import {StyleSheet, Text,View} from 'react-native';
+import React, { useState } from 'react';
+import {StyleSheet, Text,View, FlatList} from 'react-native';
+import Books from '../datas/books.json';
+import { Input } from 'react-native-elements';
+import { Button } from 'react-native-elements';
+import axios from 'axios';
+import { useCallback } from 'react';
+import { add } from 'react-native-reanimated';
+
+
 
 function LibraryScreen({navigation}) {
     
+
+    const [recherche, useRecherche] = useState("");
+
+    const [archives, addArchives] = useState([]);
+
+    function changeText(texte) {
+        useRecherche(texte)
+    }
+    
     return(
         <View style={styles.container}>
-            <Text onPress={() => navigation.navigate("book", {title: "SDA - Commu"})}>
-                Seigneur des anneaux: La communauté de l'anneau
-            </Text>
-            <Text>Seigneur des anneaux: Les 2 tours</Text>
-            <Text>Seigneur des anneaux: Le retour du roi</Text>
+            <Input placeholder='Mon livre' onChangeText={texte => changeText(texte)}/>       
+            <Button title="Rechercher"/>
+            <FlatList data={Books} renderItem={({item}) => <Text style={styles.archives} onPress={() => navigation.navigate("book", {title: item.title, description: item.description, url: item.url })}>{item.title}</Text>} />  
         </View>
     )
 }
@@ -20,7 +35,10 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'center',
-      },
+    },
+    archives : {
+        marginTop: 15,
+    }
 })
 
 export default LibraryScreen;

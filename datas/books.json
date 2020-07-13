@@ -3,6 +3,31 @@
         "title": "Vingt mille lieues sous les mers",
         "author": "Jules Verne",
         "description": "Làfifjijfjififjifjifjifjifjfi",
-        "image": "https://www.google.com/lnhufhfuhfu.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Houghton_FC8_V5946_869ve_-_Verne%2C_frontispiece.jpg/375px-Houghton_FC8_V5946_869ve_-_Verne%2C_frontispiece.jpg"
+    },
+    {
+        "title": "Le Petit Prince",
+        "author": "Antoine de Saint-Exupéry",
+        "description": "En racontant l’histoire du petit Prince, Saint-Exupéry aborde des thèmes majeurs qu’il établit selon une dualité : visible et invisible, adulte et enfant, amour et amitié, voyage et sédentarité, espace et temps, danger et destruction, signes et significations, questions et réponses, bonheur et chagrin.",
+        "url": "https://www.antoinedesaintexupery.com/wp-content/uploads/2011/02/08_0.jpg"
+    },
+    {
+        "title": "L'Étranger",
+        "author": "Albert Camus",
+        "description": " Il prend place dans la tétralogie que Camus nommera « cycle de l’absurde » qui décrit les fondements de la philosophie camusienne : l’absurde. Cette tétralogie comprend également l’essai intitulé Le Mythe de Sisyphe ainsi que les pièces de théâtre Caligula et Le Malentendu. ",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Camus23.jpg"
+    },
+    {
+        "title": "L'Étranger",
+        "author": "Albert Camus",
+        "description": " Il prend place dans la tétralogie que Camus nommera « cycle de l’absurde » qui décrit les fondements de la philosophie camusienne : l’absurde. Cette tétralogie comprend également l’essai intitulé Le Mythe de Sisyphe ainsi que les pièces de théâtre Caligula et Le Malentendu. ",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Camus23.jpg"
+    },
+    {
+        "title": "L'Étranger",
+        "author": "Albert Camus",
+        "description": " Il prend place dans la tétralogie que Camus nommera « cycle de l’absurde » qui décrit les fondements de la philosophie camusienne : l’absurde. Cette tétralogie comprend également l’essai intitulé Le Mythe de Sisyphe ainsi que les pièces de théâtre Caligula et Le Malentendu. ",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Camus23.jpg"
     }
+    
 ]

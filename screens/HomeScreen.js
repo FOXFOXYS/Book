@@ -1,5 +1,7 @@
 import React from 'react';
 import {Button, StyleSheet, Text, View} from 'react-native';
+import { ActivityIndicator } from 'react-native';
+import { Image } from 'react-native-elements';
 
 function HomeScreen({navigation}) {
     function navigateToLibrary() {
@@ -13,7 +15,7 @@ function HomeScreen({navigation}) {
 
     return(
         <View style={styles.container}>
-            <Text>Logo!</Text>
+            <Image source={{ uri: 'https://zupimages.net/up/20/29/n7nr.png' }} style={{ width: 200, height: 200 }} PlaceholderContent={<ActivityIndicator />}/>
             <Button title="Start" onPress={navigateToLibrary} />
         </View>
     )
